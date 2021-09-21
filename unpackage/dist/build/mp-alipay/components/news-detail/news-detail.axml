@@ -1,0 +1,1 @@
+<view class="root"><view class="uni-padding-wrap"><view class="detail-title">{{title}}</view><view class="detail-header"><text class="user">{{detailData.user}}</text><text class="time">{{detailData.createTime}}</text></view><view><u-parse vue-id="3a557c40-1" content="{{article}}" onVueInit="__l"></u-parse></view></view></view>

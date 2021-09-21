@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "详情页面",
+  "titleBarColor": "#00ade3",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

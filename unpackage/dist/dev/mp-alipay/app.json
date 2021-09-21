@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "components/network-chart/network-chart",
+    "pages/tabBar/learn/index",
+    "pages/tabBar/news/news",
+    "components/news-detail/news-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "items": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "name": "首页",
+        "icon": "static/images/tabBar/home.png",
+        "activeIcon": "static/images/tabBar/home_selected.png"
+      },
+      {
+        "pagePath": "pages/tabBar/learn/index",
+        "name": "学习",
+        "icon": "static/images/tabBar/learn.png",
+        "activeIcon": "static/images/tabBar/learn_selected.png"
+      },
+      {
+        "pagePath": "pages/tabBar/news/news",
+        "name": "资讯",
+        "icon": "static/images/tabBar/news.png",
+        "activeIcon": "static/images/tabBar/news_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

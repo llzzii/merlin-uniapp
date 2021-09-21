@@ -1,0 +1,107 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		},
+		// #ifdef APP-PLUS
+		{
+			"path": "pages/tabBar/fileManage/file_manage",
+			"style": {
+				"navigationBarTitleText": "文件",
+				"navigationBarShadow": {
+					"colorType": "gray"
+				},
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		},
+		// #endif
+		{
+			"path": "components/network-chart/network-chart",
+			"style": {
+				"navigationBarTitleText": "网络图表",
+				"navigationBarShadow": {
+					"colorType": "gray"
+				},
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tabBar/learn/index",
+			"style": {
+				"navigationBarTitleText": "学习",
+				"navigationBarShadow": {
+					"colorType": "gray"
+				},
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/tabBar/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"navigationBarShadow": {
+					"colorType": "gray"
+				},
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		}, {
+			"path": "components/news-detail/news-detail",
+			"style": {
+				"navigationBarTitleText": "详情页面",
+				"navigationBarShadow": {
+					"colorType": "gray"
+				},
+				"navigationBarBackgroundColor": "#00ade3",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/images/tabBar/home.png",
+				"selectedIconPath": "static/images/tabBar/home_selected.png",
+				"text": "首页"
+			},
+			// #ifdef APP-PLUS
+			{
+				"pagePath": "pages/tabBar/fileManage/file_manage",
+				"iconPath": "static/images/tabBar/file.png",
+				"selectedIconPath": "static/images/tabBar/file_selected.png",
+				"text": "文件"
+			},
+			// #endif
+			{
+				"pagePath": "pages/tabBar/learn/index",
+				"iconPath": "static/images/tabBar/learn.png",
+				"selectedIconPath": "static/images/tabBar/learn_selected.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/tabBar/news/news",
+				"iconPath": "static/images/tabBar/news.png",
+				"selectedIconPath": "static/images/tabBar/news_selected.png",
+				"text": "资讯"
+			}
+		]
+	}
+}

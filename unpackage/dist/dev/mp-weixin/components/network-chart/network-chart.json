@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "网络图表",
+  "navigationBarBackgroundColor": "#00ade3",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"
+  }
+}

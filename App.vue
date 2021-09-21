@@ -1,0 +1,29 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+		},
+		onShow: function() {
+			uni.hideLoading()
+			console.log('App Show')
+		},
+		onHide: function() {
+			uni.hideLoading()
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style>
+	/*每个页面公共css */
+	@font-face {
+	  font-family: 'iconfont';  /* Project id 2809767 */
+	  src: url('http://at.alicdn.com/t/font_2809767_pffxmckbg4b.woff2?t=1631838708484') format('woff2'),
+	       url('http://at.alicdn.com/t/font_2809767_pffxmckbg4b.woff?t=1631838708484') format('woff'),
+	       url('http://at.alicdn.com/t/font_2809767_pffxmckbg4b.ttf?t=1631838708484') format('truetype');
+	}
+	
+	.icon-icon {
+		font-family: iconfont;
+	}
+</style>

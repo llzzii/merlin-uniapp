@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "资讯",
+  "titleBarColor": "#00ade3",
+  "usingComponents": {
+    "news-item": "/components/news-item/news-item"
+  }
+}
